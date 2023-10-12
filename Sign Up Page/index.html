@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url(https://fastly.picsum.photos/id/532/1080/720.jpg?hmac=hN9fpjd7APOk7UeW3WoAHKUhJZeofKsta3qf31qG-rU);">
+    <div class="center">
+        <fieldset>
+        <div>
+            <h1 id="title">Sign Up</h1>
+        </div>
+        <div>    
+            <label for="givenName">Given Name</label>
+            <input type="text" id="givenName" name="givenName" placeholder="Enter your Given Name" required>
+        </div>
+        <div>    
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name" required>
+        </div>
+        <div>    
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter your Age" required>
+        </div>
+        <div>    
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male"> Male
+            <input type="radio" id="female" name="gender" value="Female"> Female
+        </div>
+        <div>    
+            <label for="email">Enter your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        </div>
+        <div>    
+            <label for="password">Enter your Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+        </div>
+        <div>    
+            <label for="npassword">Confirm Password</label>
+            <input type="password" id="npassword" name="npassword" placeholder="Enter your Password" required>
+        </div>
+        <div>  
+            <label for="yearLevel">Year Level</label>
+            <select id="yearLevel" name="yearLevel" required>
+                <option value="" disabled selected>Select Year Level</option>
+                <option value="First Year">First Year</option>
+                <option value="Second Year">Second Year</option>
+                <option value="Third Year">Third Year</option>
+                <option value="Fourth Year">Fourth Year</option>
+            </select>
+        </div>
+        <label>What are your skills? (Check all that apply)</label>
+        <div class="checkbox-container">
+            <input type="checkbox" id="checkbox1" name="checkboxGroup" value="Computer Architecture">
+            <label for="checkbox1">Computer Architecture</label>
+        
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" value="Computer Networking">
+            <label for="checkbox2">Computer Networking</label>
+        
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" value="Computer Programming">
+            <label for="checkbox2">Computer Programming</label>
+
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" value="Database Management">
+            <label for="checkbox2">Database Management</label>
+
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" value="System Administration">
+            <label for="checkbox2">System Administration</label>  
+
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" value="User Interface / Experince">
+            <label for="checkbox2">User Interface / Experince</label>  
+            
+            <input type="checkbox" id="checkbox2" name="checkboxGroup" value="Web Development">
+            <label for="checkbox2">Web Development</label>  
+
+        </div>
+        
+        <div>
+            <label for="text">Other skill not mentioned from above.</label>
+
+<textarea id="text" name="text" rows="4" cols="43">
+Enter your other skills here...
+</textarea>
+        </div>
+        <div>    
+            <button type="submit">Sign Up</button>
+        </div>
+        <div>
+            <a href="../Login Page/index.html">Back to Login</a>
+        </div>
+
+        </fieldset>      
+    </div>
+</body>
+</html>

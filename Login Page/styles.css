@@ -1,0 +1,36 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login-button {
+    background-color: #00FF00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login-button:hover {
+    background-color: #0056b3;
+}
+
+#forgot-password a:hover {
+    color: #FF5733;
+}
+
+.body {
+    background-image: url(https://fastly.picsum.photos/id/743/1080/720.jpg?hmac=tr18G4seDK0iDCPwY4YJAuYqz80V-VDsgjMncULJdtQ);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+fieldset {
+    background-color: #eeeeee;
+    border: black;
+  }
+

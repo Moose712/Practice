@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://picsum.photos/1080/720?random=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+fieldset {
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#sendCode-button {
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+#sendCode-button:hover {
+    background-color: #2980b9;
+}
+
+#backToLogin-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#backToLogin-link:hover {
+    color: #666;
+}
